@@ -1,18 +1,18 @@
 ## getting started
 
 ```
-git clone https://github.com/geofflangenderfer/hellocombinebykey
-cd hellocombinebykey
+git clone https://github.com/geofflangenderfer/Spark3HelloWorld
+cd Spark3HelloWorld
 bash run.sh
 ```
 
 ```
-✦ ~/work/hellocombinebykey master* 1m 21s
+✦ ~/work/Spark3HelloWorld master* 1m 21s
 ❯ bash run.sh
 [info] welcome to sbt 1.8.0 (Amazon.com Inc. Java 1.8.0_332)
-[info] loading project definition from /Users/lgeoff/work/hellocombinebykey/project
-[info] loading settings for project hellocombinebykey from build.sbt ...
-[info] set current project to Simple Project (in build file:/Users/lgeoff/work/hellocombinebykey/)
+[info] loading project definition from /Users/lgeoff/work/Spark3HelloWorld/project
+[info] loading settings for project Spark3HelloWorld from build.sbt ...
+[info] set current project to Simple Project (in build file:/Users/lgeoff/work/Spark3HelloWorld/)
 [success] Total time: 2 s, completed Nov 13, 2022 3:33:33 PM
 Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
 22/11/13 15:33:35 INFO SparkContext: Running Spark version 3.2.1
@@ -40,7 +40,7 @@ Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
 22/11/13 15:33:36 INFO SparkEnv: Registering OutputCommitCoordinator
 22/11/13 15:33:36 INFO Utils: Successfully started service 'SparkUI' on port 4040.
 22/11/13 15:33:36 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.1.17:4040
-22/11/13 15:33:36 INFO SparkContext: Added JAR file:/Users/lgeoff/work/hellocombinebykey/target/scala-2.12/simple-project_2.12-1.0.jar at spark://192.168.1.17:60088/jars/simple-project_2.12-1.0.jar with timestamp 1668382415792
+22/11/13 15:33:36 INFO SparkContext: Added JAR file:/Users/lgeoff/work/Spark3HelloWorld/target/scala-2.12/simple-project_2.12-1.0.jar at spark://192.168.1.17:60088/jars/simple-project_2.12-1.0.jar with timestamp 1668382415792
 22/11/13 15:33:37 INFO Executor: Starting executor ID driver on host 192.168.1.17
 22/11/13 15:33:37 INFO Executor: Fetching spark://192.168.1.17:60088/jars/simple-project_2.12-1.0.jar with timestamp 1668382415792
 22/11/13 15:33:37 INFO TransportClientFactory: Successfully created connection to /192.168.1.17:60088 after 34 ms (0 ms spent in bootstraps)
@@ -54,7 +54,7 @@ Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
 22/11/13 15:33:37 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.1.17, 60090, None)
 22/11/13 15:33:37 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.1.17, 60090, None)
 22/11/13 15:33:37 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
-22/11/13 15:33:37 INFO SharedState: Warehouse path is 'file:/Users/lgeoff/work/hellocombinebykey/spark-warehouse'.
+22/11/13 15:33:37 INFO SharedState: Warehouse path is 'file:/Users/lgeoff/work/Spark3HelloWorld/spark-warehouse'.
 22/11/13 15:33:38 INFO InMemoryFileIndex: It took 42 ms to list leaf files for 1 paths.
 22/11/13 15:33:41 INFO FileSourceStrategy: Pushed Filters: 
 22/11/13 15:33:41 INFO FileSourceStrategy: Post-Scan Filters: 
@@ -79,7 +79,7 @@ Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
 22/11/13 15:33:42 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks resource profile 0
 22/11/13 15:33:43 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (192.168.1.17, executor driver, partition 0, PROCESS_LOCAL, 4867 bytes) taskResourceAssignments Map()
 22/11/13 15:33:43 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
-22/11/13 15:33:43 INFO FileScanRDD: Reading File path: file:///Users/lgeoff/work/hellocombinebykey/README.md, range: 0-5249, partition values: [empty row]
+22/11/13 15:33:43 INFO FileScanRDD: Reading File path: file:///Users/lgeoff/work/Spark3HelloWorld/README.md, range: 0-5249, partition values: [empty row]
 22/11/13 15:33:43 INFO CodeGenerator: Code generated in 42.336542 ms
 22/11/13 15:33:43 INFO MemoryStore: Block rdd_3_0 stored as values in memory (estimated size 5.8 KiB, free 365.9 MiB)
 22/11/13 15:33:43 INFO BlockManagerInfo: Added rdd_3_0 in memory on 192.168.1.17:60090 (size: 5.8 KiB, free: 366.3 MiB)
